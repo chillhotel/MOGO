@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fortnite{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.ytrewq{
+    display: none;
+}
+.qwert{
+    color: aqua;
+}
+.qwer{
+    width: 450px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+}
+li{
+    display: flex; 
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ytrewq{ 
+    width: 100%;
+    height: 40px;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    background-color: black;
+}
+#trewq{
+    display: none;
+}
+label{
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+line-height: 40px;
+cursor: pointer;
+z-index: 2;
+color: aqua;
+font-family: sans-serif;
+}
+.burger{
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: whitesmoke;
+    right: 10px;
+    top: 8px;
+    transition: 0.5s all;
+}
+.o2, .o3{
+top: 18px;
+}
+.o4{
+    top: 28px;
+}
+.menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 0;
+    transform: translateY(100%);
+    overflow: hidden;
+    transition: 0.5s all;
+}
+#trewq:checked ~.menu{
+max-height: 500px;
+font-size: 16px;
+}
+#trewq:checked ~.o1{
+    display: none;
+}
+#trewq:checked ~.o4{
+    display: none;
+}
+#trewq:checked ~.o2{
+    transform: rotate(45deg);
+}
+#trewq:checked ~.o3{
+    transform: rotate(-45deg);
+}
+.abobas{
+    display: block;
+    width: 100%;
+    color: whitesmoke;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-top: 1px solid whitesmoke;
+}
+.abobas:hover{
+background-color: rgba(0, 0, 0, 0.574);
+}
+a{
+    text-decoration:none;
+    color: aqua;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+li:hover{
+    border-bottom: 2px solid red;
+}
+a:hover{
+    color: red;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.black{
+    margin-top: 25px;
+}
+.red{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+.green{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.red p{
+    font-family: 'Dancing Script', cursive;
+}
+.hr{
+    width: 75px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: red;
+    margin-bottom: 20px;
+    height: 3px;
+}
+.orange{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.violet{
+    display: flex;
+    width: 30%;
+}
+.ababa{
+    margin-right: 15px;
+}
+.aboba h2{
+    font-size: 20px;
+    color: rgb(84, 84, 84);
+    font-family: sans-serif; 
+}
+.aboba p{
+    color: lightslategrey;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+.hhhrp2{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+}
+.hrhr{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.idk{
+    margin-top: 15px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: gray;
+    font-family: sans-serif;
+}
+.orange7{
+    width: 376px;
+    height: 465px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black7{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.black7 h3{
+    color: #6e6e6e;
+}
+.black7 p{
+    color: grey
+}
+.red7{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.orange71{
+    background-image: url(img/photo_2024-02-11_10-04-24.jpg);
+}
+.orange72{
+    background-image: url(img/photo_2024-02-11_10-04-17.jpg);
+}
+.orange73{
+    background-image: url(img/photo_2024-02-11_10-03-10.jpg);
+}
+.orange72:hover{
+    background-image: linear-gradient(to top,rgba(255, 0, 0, 0.352),rgba(255, 255, 0, 0.451)),url(img/photo_2024-02-11_10-04-17.jpg);
+}
+.orange73:hover{background-image: linear-gradient(to top,rgba(255, 0, 0, 0.352),rgba(255, 255, 0, 0.451)),url(img/photo_2024-02-11_10-03-10.jpg)
+}
+.orange71:hover{
+    background-image: linear-gradient(to top,rgba(255, 0, 0, 0.352),rgba(255, 255, 0, 0.451)),url(img/photo_2024-02-11_10-04-24.jpg) 
+}
+.orange6{
+    width: 200px;
+    height: 50px;
+    display: none;
+}
+.orange5{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid red;
+}
+.orange4{
+    border: none;
+}
+.orange71:hover .orange6{
+    display:flex
+}
+.orange72:hover .orange6{
+    display:flex
+}
+.orange73:hover .orange6{
+    display:flex;
+}
+.orange5:hover{
+background-color: aqua;
+}
+.L{
+    font-family: sans-serif;
+}
+.L a{
+    color: red;
+}
+button{
+    width:  100px;
+    height: 40px;
+    background-color: aqua;
+    color: whitesmoke;
+    border: none;
+    font-weight: bold;
+}
+.footer {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    border-top: 2px solid rgb(171, 171, 171);
+    padding: 25px 0;
+}
+input{
+    height: 40px;
+    border: 2px solid rgb(171, 171, 171);
+}
+@media (min-width:0px) and (max-width:767px){
+  .fortnite{flex-direction: column; 
+            align-items: center;
+        display: none;}  
+    .red7{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .qwer{
+        width: 100%;
+    }
+    .green p{
+        text-align: center;
+    }
+    .red1{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .orange{
+        flex-direction: column;
+    }
+    .aboba h2{
+        font-size: 16px;
+    }
+    .aboba p{
+        font-size: 14px;
+    }
+    .violet{
+        width: 100%;
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .red{
+        font-size: 30px;
+    }
+    .green{
+        font-size: 40px;
+    }
+    .hrhr{
+        font-size: 35px;
+    }
+    .hhhrp2{
+        font-size: 30px;
+    }
+    .red7{
+        align-items: center;
+    }
+    .orange7{
+        width: 300px;
+    }
+    .ytrewq{
+        display: flex;
+    }
+    .L{
+        margin-top: 20px;
+    }
+    .footer{
+        flex-direction: column-reverse;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .orange7{
+        height: 384px;
+        width: auto;
+    }
+    .red7{
+        width: 100%;
+    }
+    .blue7{
+        width: 30%;
+    }
+    .black7 h3{
+        text-align: center;
+    }
+    .qwer{
+        display: none;
+    }
+    .ytrewq{
+        display: block;
+    }
+    .qwert h1{
+        display: none;
+    }
+    .fortnite{
+        margin-top: 0px;
+    }
+    .abobas:hover{
+        color: orangered;
+        transition: 0.5s;
+        background-color: rgba(0, 255, 255, 0.51);
+    }
+    .abobas{
+        font-weight: bold;
+
+    }
+    .orange7{
+        background-position: center;
+    }
+    .orange71{
+        background-position: left;
+    }
+}
